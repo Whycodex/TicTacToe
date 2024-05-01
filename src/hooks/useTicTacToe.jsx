@@ -37,7 +37,7 @@ function useTicTacToe() {
       return;
     }
     const newBoard = [...board];
-    newBoard[index] = turnX ? "X" : "0";
+    newBoard[index] = turnX ? "X" : "O";
     setBoard(newBoard);
     setTurnX(!turnX);
   };
